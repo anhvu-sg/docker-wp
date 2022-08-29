@@ -1,4 +1,4 @@
-FROM wordpress:6.0.0
+FROM wordpress
 
 RUN curl -sSLf \
         -o /usr/local/bin/install-php-extensions \
